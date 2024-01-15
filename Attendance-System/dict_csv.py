@@ -5,7 +5,7 @@ fieldnames = ['Name', 'Age', 'City']
 with open('dict.csv',mode= 'w', newline='') as file:
     csv_writer = csv.DictWriter(file, fieldnames=fieldnames)
     csv_writer.writeheader()
-    csv_writer.writerow({'Name': 'Alice', 'Age': 25, 'City': 'New York'})
+    csv_writer.writerow({'Name': 'Gaurav', 'Age': 19, 'City': 'Mumbai'})
 
 def write_dict_to_csv(file_path, fieldnames, data):
     with open(file_path, mode='w', newline='') as file:
