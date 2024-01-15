@@ -9,7 +9,7 @@ a=input(str("Enter the User Id: "))
 
 if os.path.exists(a):
     print("Id already exists")
-    
+
 else: 
     os.makedirs(a)
 
